@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .videoBar{
+    align-items: center;
+    margin: 40px 150px 20px 150px;
+    
+  }
+  
+  .image__video{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    border-radius: 20px;
+    border: none;
+  }
+  
+  .video__collection{
+    display: grid;
+  }
+  
+  .videoCollect{
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+  
+  .videoCollection__item{
+    display: flex;
+    align-items: center;
+    position: relative;
+    list-style: none;
+    margin-top: 100px;
+  }
+  
+  .videoCollection__item li{
+    margin: 20px 10px;
+  }
+  
+  .videoCollection__item li img{
+    border-radius: 5px;
+  
+  }
+  
+  .videoItem{
+    width: 140px;
+    height: 80px;
+  }
+  
+  .video__info{
+    width: 150px;
+    height: 60vh;
+    background-color: rgb(54, 10, 54);
+  }
